@@ -2,6 +2,8 @@
 
 A clone of the classic game Connect 4. Using React to Create the application and ... (Come back to me...)
 
+# Tech Used 
+
 # User Stories (As a user I want to... )
 
 - Be able to have clear instructions on how to play the game
@@ -52,7 +54,8 @@ A clone of the classic game Connect 4. Using React to Create the application and
     - 1 to Many realationship with Users
     - Many to Many relationship with Matches
     - Profiles allow a user to keep track of players in matches this is especially helpful for "hot seat" style playing where two players are playing on the same machine. (OUR MVP)
-Fields 
+
+- Fields 
 - name: String
 - matches: refId
 - owner: refId
@@ -62,7 +65,7 @@ Fields
     - Many to 1 relationship with users
     - Many to Many relationship with Profiles
     - Matches allows a user to track the rounds you win or lose between profiles.
-Fields 
+- Fields 
 - player1: refId - Profiles
 - player2: refId - Profiles
 - rounds: Number - Best of 1 or Best of 3 (ennum?)
@@ -78,6 +81,23 @@ Fields
 | Sign in | POST | /signin |
 | Sign out | DELETE | /signout |
 | Change password | PATCH | /change-password |
-| Profiles
- |  |  |
-|  |  |  |
+| Profiles | GET | /profile |
+| User | GET | /user |
+
+# Wire Frames
+
+<img src="./photos/Base-Page.png">
+
+<img src="./photos/Login-page.png">
+
+<img src="./photos/Signup-page.png">
+
+<img src="./photos/Profile-creation.png">
+
+<img src="./photos/Profile-view.png">
+
+<img src="./photos/Profiles-index.png">
+
+<img src="./photos/New-match-creation.png">
+
+<img src="./photos/Game-play.png">
