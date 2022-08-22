@@ -4,6 +4,8 @@ A clone of the classic game Connect 4. Using React to Create the application and
 
 # Tech Used 
 
+Don't know yet
+
 # User Stories (As a user I want to... )
 
 - Be able to have clear instructions on how to play the game
