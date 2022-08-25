@@ -1,70 +1,70 @@
-# Project 4 - Connect 4 
+# Getting Started with Create React App
 
-A clone of the classic game Connect 4. Using React to Create the application and ... (Come back to me...)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Used in conjunction with my [connect 4 API](https://github.com/Valkarie01/Connect-4-API)
+## Available Scripts
 
-# Tech Used - MERN Stack
+In the project directory, you can run:
 
-Mongoose
-Express
-React
-Node
+### `npm start`
 
-# User Stories (As a user I want to... )
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- Be able to have clear instructions on how to play the game
-    
-- Have clear indications on who's turn it is
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- Be able to only click on one space per round
+### `npm test`
 
-- Know when I win
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- Know when I lose
+### `npm run build`
 
-- Be able to start a new game
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Be able to see a scoreboard for playing multiple rounds in a match
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- I want to make a match (MVP matches are best of 1 or best of 3)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- I want to see my old matches
+### `npm run eject`
 
-- Be able to sign up 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-- Be able to log in
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- Be able to log out 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- Be able to change password
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-- Be able to create a profile
+## Learn More
 
-- Be able to select a profile
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- Be able to create multiple profiles
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- Be able to select multiple profiles 
+### Code Splitting
 
-- STRETCH - Be able to play agaisnt the computer
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-- STRETCH - Be able to play with other users (sockets)
+### Analyzing the Bundle Size
 
-# Wire Frames
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-<img src="./photos/Base-Page.png">
+### Making a Progressive Web App
 
-<img src="./photos/Login-page.png">
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-<img src="./photos/Signup-page.png">
+### Advanced Configuration
 
-<img src="./photos/Profile-creation.png">
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-<img src="./photos/Profile-view.png">
+### Deployment
 
-<img src="./photos/Profiles-index.png">
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-<img src="./photos/New-match-creation.png">
+### `npm run build` fails to minify
 
-<img src="./photos/Game-play.png">
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
