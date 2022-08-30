@@ -5,6 +5,7 @@ import { Board } from './interfaces/Board'
 import { Column } from './interfaces/Column'
 import { Row } from './interfaces/Row'
 
+// sets initial board and displays it
 const GameBoard: React.FC = (): JSX.Element => {
     const initialBoard: Board = {
         rows: Array.from({ length: c4rows }, (_, i) => ({
