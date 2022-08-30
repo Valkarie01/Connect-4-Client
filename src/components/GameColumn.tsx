@@ -2,11 +2,13 @@ import React from "react";
 import { Column } from "./interfaces/Column";
 
 interface Props {
-    columnIndex: number
-    column: Column
+    player: number;
+    columnIndex: number;
+    column: Column;
+    updateBoard: (columnIndex: number) => void;
 }
 
-const GameColumn: React.FC<Props> = (columnIndex, column: Props): JSX.Element => {
+const GameColumn: React.FC<Props> = ({columnIndex, column, updateBoard}: Props): JSX.Element => {
     let tileStatus = 'open'
 
     if(column.player === 1) {
@@ -16,7 +18,7 @@ const GameColumn: React.FC<Props> = (columnIndex, column: Props): JSX.Element =>
     }
     return (
     <td>
-        <div className="tile">
+        <div className="tile" onClick={() => updateBoard(columnIndex)}>
             <div className={[tileStatus, "circle"].join(" ")}>
 
             </div>
